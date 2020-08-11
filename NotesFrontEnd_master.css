@@ -1,0 +1,66 @@
+nav{
+  background-color: #ffbe0b;
+}
+#aaa{
+  font-size: 30px;
+}
+/* #navbarSupportedContent{
+  text-align: left;
+} */
+*{
+  color: #f9c74f;
+  background-color: black;
+}
+button{
+  background-color:#f9c74f;
+  color:black;
+}
+body{
+  background-color: black;
+}
+.container{
+  text-align: center;
+}
+.createNote .viewNotes{
+  margin-top:10px;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: thin;
+  border-color:#f9c74f ;
+  text-align: center;
+}
+.card{
+  style="width: 18rem;
+  margin-top:10px;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: thin;
+  border-color:#f9c74f ;
+text-align: center;}
+.card-title .card-text{
+  color:black;text-align: center;
+  background-color: #f9c74f;
+}
+.CardDisplay{
+  margin-top:2px;
+  margin-left:2px;
+  margin-right:2px;
+  margin-bottom:2px;
+  border-style: solid;
+  border-width: thin;
+  border-color:#f9c74f ;
+}
+.updateNote{
+  text-align: center;
+  margin-top:10px;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: thin;
+  border-color:#f9c74f ;
+}

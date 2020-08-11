@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Notes</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="NotesFrontEnd_master.css">  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #ffbe0b;">
+  <a class="navbar-brand" id="aaa" href="#">Notes</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse  navbar-collapse" id="navbarSupportedContent"  style="background-color: #ffbe0b;">
+    <ul class="navbar-nav mr-auto">       <li class="nav-item active">     <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
+      </li> </ul>
+  </div>
+</nav>
+<div class= "container" >
+<div class="createButton" >
+  <button type="button" class="btn btn-warning"  style="margin:20px;" onclick="myFunction()">Create</button>
+  <button type="button" class="btn btn-warning"  style="margin:20px;" onclick="myFunct()">Update</button>
+  <button type="button" class="btn btn-warning" style="margin:20px;" id="readbutton" >Read Notes</button>
+  <!-- onclick="myFun()" -->
+  <button type="button" class="btn btn-warning" style="margin:20px;" >Delete</button>
+</div>
+<div  class="createNote" id="createBlock" style="display:none;">
+<textarea  class="TitleNotes" id="area_1" rows="1" cols="100" style="color:black; background-color:#f9c74f;">Title:</textarea>
+<textarea  class="TitleDescp" id="area" rows="10" cols="100" style="color:black; background-color:#f9c74f;">description:</textarea>
+<button  type="button" class="btn btn-success" style="margin:10px;">Save</button>
+</div>
+<div class="updateNote" id="updateBlock" style="display:none;">
+  <label for="objectId">Object Id:</label>
+   <input id="objectId" type="text" style="margin:25px;color:black; background-color:#f9c74f;">
+ <button type="button" class="btn btn-success" style="margin:10px;">Search</button>
+  </div>
+<div class="viewNotes" id="viewBlock"  style="align:center">
+      <!-- <div class="cardDisplay">
+       <div class="card" style="width: 18rem;">
+        <div class="card-body">
+
+           <h5 class="card-title" style="margin:5px;color:black; background-color:#f9c74f;">Card title</h5>
+           <p class="card-text" style="margin:2px;color:black; background-color:#f9c74f;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           <a href="#" class="card-link1" style="margin:2px;color:black; background-color:#f9c74f;" >add</a>
+           <a href="#" class="card-link2" style="margin:2px;color:black; background-color:#f9c74f;">Another link</a>
+          </div>
+
+        </div>
+     </div> -->
+
+</div>
+</div>
+
+  <script src="NotesFrontEnd_script.js">      </script>
+ </body>
+</html>
